@@ -11,10 +11,8 @@ How to use
 ```
 replace_docx(src, dest, replace_list)
 ```
-> src is path of the template DOCX file
-
-> dest is path of the output PDF file
-
+> src is path of the template DOCX file\n
+> dest is path of the output PDF file\n
 > replace_list is the list of texts you want to change... like below.
 
 ```
