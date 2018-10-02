@@ -24,3 +24,4 @@ replace_docx(src, dest, replace_list)
 # Dependency
 - python-docx
 - MS Office Word on Windows
+- pywin32 (for module 'wincom32')
