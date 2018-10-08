@@ -50,7 +50,7 @@ def replace_docx(src_file, dest_file, replace_list):
                 for i in range(len(replace_list)):
                     replace_in_paragraphs(cell.paragraphs, replace_list[i][0], replace_list[i][1])
 
-    doc.save(dest_file[0:-3] + '.docx')
-    covx_to_pdf(dest_file[0:-3] + '.docx', dest_file + '.pdf')
+    doc.save(dest_file[0:-3] + 'docx')
+    covx_to_pdf(dest_file[0:-3] + 'docx', dest_file + '.pdf')
 
 

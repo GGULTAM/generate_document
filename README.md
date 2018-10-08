@@ -20,6 +20,7 @@ replace_docx(src, dest, replace_list)
 ```
 [['original text 1', 'new text 1'], ['original text 2', 'new textg 2'], ...]
 ```
+※ Caution : path of template file must be full-path like 'C:\Users\...\template.docx'
 
 # Dependency
 - python-docx
